@@ -8,6 +8,13 @@ inspired by the growing trend of using NFTs (non-fungible tokens) as unique iden
 
 this is far from a complete or perfect solution, nor do i plan on making it one. maintenance of this project is subject to our interest in it, there are no guarantees. i'm not a software developer. i'm just interested in personalizing images for the novelty of my clients owning digital artifacts that are visually-identical, yet unique. my hope is that people who actually know how to code could use this as a basis for other NFT alternatives, e.g. embedding QR codes with private-public keys for secure unique identification, or embedding something else entirely! have fun, be creative, make art <3.
 
+# WHAT YOU NEED
+* Python 3
+* numpy
+* matplotlib
+* scipy
+* PIL
+
 # HOW TO USE
 1. MAKE A QR CODE
 * visit https://www.qrstuff.com/ (or other such free QR builder)
