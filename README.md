@@ -2,8 +2,7 @@
 a simple Python steganography tool for individualizing artwork without (much of) a trace!
 
 # ABOUT
-this project is licensed under a Creative Commons Attribution-Share-Alike 4.0 International License.
-you can create derivative work and share or sell it! but you must attribute me (anchovie) and my partner (marzz) as the source creators, and publish your work under a similar license. questions can be directed to my twitter, @anchoviedraws.
+any questions about this project can be directed to my twitter, @anchoviedraws.
 
 inspired by the growing trend of using NFTs (non-fungible tokens) as unique identifiers for digital artwork, `not-NFT` explores an alternate approach that isn't tied to the pyramid scheme of cryptocurrency. NFTs are minted with monopoly money on a blockchain, and are primarily sold for speculative value rather than artistic/emotional/spiritual value. `not-NFT` offers a free, creative alternative that preserves an emphasis on artistic value. it uses simple image processing to encode an image with a QR code. on the decoding side, it can extract that QR code from an encoded image for someone to scan and "prove" it is individualized with whatever content was put on the QR code. in terms of protecting the encoding from replication, if someone uploads (say, accidentally) an encoded image to a service that compresses the upload (literally every major social media platform afaik), the encoding will be destroyed by the compression and it will become a non-unique copy.
 
