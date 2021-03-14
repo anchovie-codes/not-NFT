@@ -11,8 +11,8 @@ this is far from a complete or perfect solution, nor do i plan on making it one.
 
 # HOW TO USE
 1. MAKE A QR CODE
-visit https://www.qrstuff.com/ (or other such free QR builder)
-i just make plaintext QR codes with personalized notes, but the sky's the limit. put whatever you want on it!
+* visit https://www.qrstuff.com/ (or other such free QR builder)
+  * i just make plaintext QR codes with personalized notes, but the sky's the limit. put whatever you want on it!
 * size & resolution: 100px @ 72dpi
 * file type: png
 * error correction: level H (30%)
