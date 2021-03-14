@@ -33,3 +33,14 @@ NOTE:  if you want to change what you're embedding, you'll need to alter the ima
 * image file being decoded should be named “encode.png”
 * ensure QR_BRIGHTNESS is the same value that was used for encoding the image
 * set QR_SIZE to the height of the QR code that was encoded in the image
+
+# TUNING THE SETTINGS
+this project hasn't been tested comprehensively, but i've put it through a stress test of a variety of images: graphite sketches, dithered grayscale manga, dithered color art, film photos, and digital photos. the global variables are commented with explanations of how to tune them for a good output, but here are some additional comments:
+* `QR_BRIGHTNESS` is very sensitive. i never needed to turn it up past `4` to get a clear result on even the noisiest images (film photo with strong grain). if you change this value on the encoding side, you must make it identical on the decoding side as well.
+* `THRESHOLD` is used to increase the contrast of the output to pure white on pure black. if you're testing a decode and want to see what the grayscale QR_out looks like without this adjustment, comment out lines 49 and 50.
+
+# FOR ARTISTS
+this is my process for using this tool:
+* put the original QR code and a text file with the encoding settings in the same folder as the original artwork, for safekeeping/reference.
+* when the time comes to decode, those important parameters (such as `QR_BRIGHTNESS` and `QR_SIZE`,  will be easy to set!
+* this isn't a "set it and forget it" tool, it will demand fine-tuning and a bit of trial and error. writing down your settings and your tweaking process will serve as a good reference point, and increase your familiarity with the tool over time.
